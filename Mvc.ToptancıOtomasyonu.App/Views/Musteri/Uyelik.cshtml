@@ -1,0 +1,45 @@
+﻿@using Mvc.ToptancıOtomasyonu.App.Models
+@{
+    Layout = null;
+}
+
+
+@model IEnumerable<Musteri>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Uyelik</title>
+</head>
+<body>
+
+    <h3>Müşteri Listesi</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Müşteri Id</th>
+                <th>AD</th>
+                <th>SOYAD</th>
+                <th>Telefon</th>
+                <th>Şifre</th>
+                <th>TC No </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Musteri_ID</td>
+                    <td>@item.AD</td>
+                    <td>@item.SOYAD</td>
+                    <td>@item.Telefon</td>
+                    <td>@item.Sifre</td>
+                    <td>@item.TCKNo</td>
+                </tr>
+            }
+    </tbody>
+</table>
+
+</body>
+</html>

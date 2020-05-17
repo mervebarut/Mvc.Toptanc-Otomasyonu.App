@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.ToptancıOtomasyonu.App", "Mvc.ToptancıOtomasyonu.App\Mvc.ToptancıOtomasyonu.App.csproj", "{9845C764-3597-483F-9370-A0F71B8E1B1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9845C764-3597-483F-9370-A0F71B8E1B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9845C764-3597-483F-9370-A0F71B8E1B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9845C764-3597-483F-9370-A0F71B8E1B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9845C764-3597-483F-9370-A0F71B8E1B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E005DDAD-8B31-4752-A71C-4FDC9B50E8D0}
+	EndGlobalSection
+EndGlobal
